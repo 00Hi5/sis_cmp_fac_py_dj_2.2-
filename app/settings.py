@@ -87,11 +87,11 @@ WSGI_APPLICATION = 'app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db_djfull',
-        'HOST': 'localhost',
-        'USER': 'debs',
-        'PASSWORD': '123456',
-        'PORT': 5435
+        'NAME': 'db_djcmpfc_42',
+        'HOST': '192.168.1.21',
+        'USER': 'admpostgres',
+        'PASSWORD': 'adm123456',
+        'PORT': 5432
     }
 }
 
